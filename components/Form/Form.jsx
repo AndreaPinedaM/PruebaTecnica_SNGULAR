@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
 import Response from '../Modal/Modal';
 
 import { SerieCalculadora } from '../FunctionComponent/functionSecuence';
@@ -25,8 +24,8 @@ function NumberForm() {
     return (
         <Form onSubmit={handleSubmit}>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                <Form.Label>Ingresa el valor de la secuencia a obtener:</Form.Label>
-                <Form.Control type="number" name="num" min={1} max={100} placeholder="5" onChange={handleChange} value={numSerie} />
+                <Form.Label>Ingresa el valor (n) de la secuencia a obtener:</Form.Label>
+                <Form.Control type="number" name="num" min={2} max={100} placeholder="5" onChange={handleChange} value={numSerie} />
             </Form.Group>
             <Response resultado={`${resultadoN}`} ></Response>
         </Form>

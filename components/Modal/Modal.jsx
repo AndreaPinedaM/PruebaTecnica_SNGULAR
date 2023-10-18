@@ -12,14 +12,16 @@ function Response(props) {
     return (
         <>
             <Button variant="primary" onClick={handleShow} type='submit'>
-                Launch demo modal
+                Mostrar resultado
             </Button>
 
             <Modal show={show} onHide={handleClose}>
                 <Modal.Header closeButton>
-                    <Modal.Title>Modal heading</Modal.Title>
+                    <Modal.Title>Resultado de la serie</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
+                    De acuerdo con la siguiente formula: <br />
+                    serie(n) = 4triangular(n-1) - 2primo(n-1) + fibonacci(n+2) <br />
                     El resultado es: {props.resultado}
                 </Modal.Body>
                 <Modal.Footer>

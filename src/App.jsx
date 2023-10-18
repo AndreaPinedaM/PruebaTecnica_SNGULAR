@@ -6,9 +6,6 @@ function App() {
   return (
     <>
       <h1>Prueba técnica</h1>
-      <p>
-        Click on the Vite and React logos to learn more
-      </p>
       <div id="numberForm">
         <NumberForm />
       </div>

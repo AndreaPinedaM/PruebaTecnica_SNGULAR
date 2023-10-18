@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/PruebaTecnica_SNGULAR/",
+  base: "https://andreapinedam.github.io/PruebaTecnica_SNGULAR/",
 });
