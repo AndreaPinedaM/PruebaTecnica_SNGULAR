@@ -17,7 +17,6 @@ Se propone desarrollar una clase con un método que entregue el término n de la
 ### Pruebas unitarias 
 * Vitest
 
-- [x] El proyecto se puede consultar en el siguiente link: []
 
 
 
