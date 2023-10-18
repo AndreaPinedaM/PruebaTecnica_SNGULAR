@@ -1,9 +1,23 @@
-# React + Vite
+# Prueba tecnica SNGULAR
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+El siguiente proyecto contiene el programa solicitado por el equipo de SNGULAR para llevar a cabo la entrevista tecnica. :octocat:
 
-Currently, two official plugins are available:
+## Proposito
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# PruebaTecnica_SNGULAR
+Se propone desarrollar una clase con un método que entregue el término n de la serie determinada por la siguiente formula:
+
+**_serie(n)=4[triangular(n-1)-2[primo(n-1) + fibonacci(n+2)_**
+
+## Tecnologias usadas
+
+* Vite
+* React
+* React-bootstrap
+
+### Pruebas unitarias 
+* Vitest
+
+- [x] El proyecto se puede consultar en el siguiente link: []
+
+
+
